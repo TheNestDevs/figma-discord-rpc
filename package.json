@@ -1,0 +1,28 @@
+{
+  "name": "figma-rpc",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "watch": "tsc -w",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write .",
+    "start": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@bravo68web/eslint-config": "^1.2.3",
+    "@bravo68web/prettier-config": "^1.2.3",
+    "@types/discord-rpc": "^4.0.8",
+    "bun-types": "latest",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5"
+
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "enquirer": "^2.4.1"
+  },
+  "prettier": "@bravo68web/prettier-config"
+}
