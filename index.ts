@@ -72,9 +72,9 @@ const ask = async () => {
     statusRunner({
       details: "Probably taking a break or doing something else.",
       state: "AFK",
-      largeImageKey: "figma_frame_sec",
+      largeImageKey: "figma_main_logo",
       largeImageText: "Zzz....",
-      smallImageKey: "figma_main_logo",
+      smallImageKey: "figma_frame_sec",
       smallImageText: "Figma RPC by @bravo68web",
       label: "Github Repo",
       url: "https://gtihub.com/thenestdevs/figma-discord-rpc"
@@ -94,9 +94,9 @@ const ask = async () => {
     statusRunner({
       details: onBoarding.details!,
       state: isIdle.idle ? "AFK" : possibleStates[Math.floor(Math.random() * possibleStates.length)],
-      largeImageKey: "figma_frame_primary",
+      largeImageKey: "figma_main_logo",
       largeImageText: possibleStates[Math.floor(Math.random() * possibleStates.length)] + " with Figma",
-      smallImageKey: "figma_main_logo",
+      smallImageKey: "figma_frame_primary",
       smallImageText: "Figma RPC by @bravo68web",
       label: "Github Repo",
       url: "https://gtihub.com/thenestdevs/figma-discord-rpc"
